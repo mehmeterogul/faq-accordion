@@ -39,20 +39,20 @@ body {
   overflow-y: scroll;
 }
 
-.background-image {
-  width: 100%;
-  z-index: 1;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
 .accordion {
   background-color: var(--color-white);
   border-radius: 0.625rem;
   padding: 1.5rem;
   z-index: 2;
   box-shadow: 0rem 0.5rem 2rem 1.5rem rgba(159, 75, 187, 0.1);
+}
+
+.background-image {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .accordion__heading {
