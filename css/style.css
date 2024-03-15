@@ -99,6 +99,7 @@ body {
 
 .accordion-item__heading {
   font-size: var(--fs-body-m);
+  font-weight: var(--fw-bold);
   line-height: 1.25;
   transition: 0.2s ease;
 }
